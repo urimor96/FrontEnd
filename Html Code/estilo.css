@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(fondo\ pan.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.redes a img{
+    width: 40px;
+}
+
+.info{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header{
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+section{
+    padding-top: 100px;
+    text-align: center;
+}
+section h1{
+    font-size: 80px;
+    color: rgb(14, 13, 13);
+}
+section a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    border: 3px solid rgb(12, 10, 10);
+    padding: 10px 15px;
+    font-size: 18px;
+}
